@@ -1,0 +1,42 @@
+* {
+	transition: all 0.4s;
+	color: #4a372a;
+	font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+	margin-top: 6%;
+	background-color: #fefbf7ff;
+}
+
+#poemDay{
+	background-color: #f4f0ebff;
+	padding: 10%;
+	margin-bottom: 5%;
+	word-wrap: break-word;
+
+}
+
+/* conteneur global pour charte graphique de la page */
+
+/* repartir de façon égal */
+
+.flex-equal>* {
+	-ms-flex: 1;
+	/*  */
+	flex: 1;
+	/*  */
+}
+
+@media (min-width: 768px) {
+	.flex-md-equal>* {
+		-ms-flex: 1;
+		flex: 1;
+	}
+}
+
+
+/* si il y a depassement de contenu d'un element dans son bloc , il est rogné */
+.overflow-hidden {
+	overflow: hidden;
+}
