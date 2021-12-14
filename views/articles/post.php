@@ -4,12 +4,12 @@
 
             <h2></br>
             <?php
-            echo '" ' .$_SESSION['post_to_show'][0]. ' "';
+                  echo '" ' .$_SESSION['post_to_show'][0]. ' "';
             ?>
             </h2>
             <p>
             <?php
-            echo ' by ' .$_SESSION['post_to_show'][1];
+                  echo ' by ' .$_SESSION['post_to_show'][1];
             ?>
             </p>
       </section>

@@ -17,10 +17,6 @@ body{
 
 }
 
-/* conteneur global pour charte graphique de la page */
-
-/* repartir de façon égal */
-
 .flex-equal>* {
 	-ms-flex: 1;
 	/*  */
@@ -33,10 +29,4 @@ body{
 		-ms-flex: 1;
 		flex: 1;
 	}
-}
-
-
-/* si il y a depassement de contenu d'un element dans son bloc , il est rogné */
-.overflow-hidden {
-	overflow: hidden;
 }

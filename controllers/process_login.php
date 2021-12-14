@@ -16,7 +16,6 @@ $username = $_POST["usernameC"];
 $password = $_POST["mdpC"];
 
 $stmt = $pdo->prepare('SELECT count(*) as nb FROM user WHERE username = ?');
-
 $stmt->execute([$username]);
 $r = $stmt->fetch();
 

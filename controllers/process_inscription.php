@@ -1,4 +1,3 @@
-<!--Formulaire d'inscription-->
 <?php 
 $username = $_POST["usernameI"];
 $password = $_POST["mdpI"];
@@ -37,9 +36,7 @@ if(isset($_FILES['photoProfileI'])){
     exit;
   }
   $uniqueName = uniqid(true);
-  //uniqid génère quelque chose comme ca : 5f586bf96dcd38.73540086
   $file =$uniqueName.".".$extension;
-  //$file = 5f586bf96dcd38.73540086.jpg
   move_uploaded_file($tmpName, '.\assets\upload\ '.$file);
 }
 
