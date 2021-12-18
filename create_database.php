@@ -29,5 +29,3 @@ $pdo->query('
     FOREIGN KEY(author) REFERENCES user(username)
   )
 ');
-
-?>

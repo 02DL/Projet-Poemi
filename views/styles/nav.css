@@ -1,4 +1,4 @@
-#menu{
+#menu {
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
@@ -7,16 +7,17 @@
 	position: fixed;
 	top: 0;
 	width: 100%;
-  }
-  
- #menu  li {
-	float: right;list-style-type:none;
-  }
+}
 
- #menu li a {
+#menu li {
+	float: right;
+	list-style-type: none;
+}
+
+#menu li a {
 	display: block;
 	color: rgb(22, 20, 20);
 	text-align: center;
 	padding: 14px 16px;
 	text-decoration: none;
-  }
+}
