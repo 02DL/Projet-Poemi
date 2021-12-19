@@ -43,3 +43,5 @@ if (!file_exists('controllers/' . $c . '.php')) {
 }
 
 require('controllers/' . $c . '.php');
+
+?>
