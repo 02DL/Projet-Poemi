@@ -11,6 +11,6 @@ require('views/articles/post.php');
          </div>
          <button type="submit" class="btn btn-block">Poster</button>
 
-      <?php
+   <?php
    }
-      ?>
+   ?>
