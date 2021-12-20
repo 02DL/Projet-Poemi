@@ -8,7 +8,7 @@
 
 # Getting started
 ## Prerequisites
-Own a local server
+Own a local server such as wampp
 
 ## Installation
 1. Clone the repo
